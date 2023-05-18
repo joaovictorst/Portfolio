@@ -1,5 +1,4 @@
 import React from "react";
-import './projects.css';
 import clima from './images/clima.gif'
 import jogodavelha from './images/jogodavelha.gif'
 
