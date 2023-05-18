@@ -1,0 +1,39 @@
+ul {
+    margin: 0;
+	padding: 0;
+	border: 0;
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+    color: inherit;
+}
+
+ul li a {
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+a svg:hover{
+    margin-top: -0.3rem;
+    transition: 300ms;
+    transition-duration: 300ms;
+    transition-timing-function: ease;
+}
+
+.Nav-Container{
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+
+.Nav-Container a:hover {
+    color: rgba(255, 255, 255, 0.7);
+}

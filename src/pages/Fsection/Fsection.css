@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    width: 98vw;
+}
+
+.container-text{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container-text div a {
+    margin: 30px;
+}
+
+h1{
+    font-size: 50px;
+    margin-top: 0px;
+}
+
+h3 {
+    font-size: 25px;
+    margin-top: 0px;
+}
+
+.Fsection-img{
+    max-width: 60rem;
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-15px);
+    }
+}
