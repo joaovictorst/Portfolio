@@ -1,6 +1,7 @@
 import React from "react";
 import clima from './images/clima.gif'
 import jogodavelha from './images/jogodavelha.gif'
+import './Projects.css'
 
 export default function Projects(){
     return (
