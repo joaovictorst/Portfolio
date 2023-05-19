@@ -7,8 +7,8 @@ import logo from '../../assets/guy.png'
 
 export default function Fcontent(){
     return(
-        <section >
-            <div>
+        <section className="container">
+            <div className="container-text">
                 <h1>Sou Joao Victor,</h1>
                 <p>Desenvolvedor Web Front-end.</p>
                 <div>

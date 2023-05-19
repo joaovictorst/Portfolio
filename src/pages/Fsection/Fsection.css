@@ -15,6 +15,11 @@
     text-align: center;
 }
 
+.container-text p {
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
 .container-text div a {
     margin: 30px;
 }
