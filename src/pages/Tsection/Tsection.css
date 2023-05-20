@@ -1,0 +1,44 @@
+.Tsection{
+    padding: 130px 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.Tsection div h1 {
+    margin-bottom: 0;
+    padding: 1em;
+}
+
+.container-ability {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 30px;
+    
+    margin: 5rem;
+}
+
+.html, .css, .javascript, .react {
+    margin-top: 2em;
+}
+
+.firebase{
+    width: 250px;
+    height: 250px;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.firebase h3 {
+    margin-bottom: 10px;
+}
+
+.estudos{
+    display: flex;
+    justify-content: center;
+    
+}
