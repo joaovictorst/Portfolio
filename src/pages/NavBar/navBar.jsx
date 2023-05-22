@@ -8,7 +8,7 @@ export default function Navbar(){
             <a href="#home">home</a>
             <ul>
                 <li><a href="#">About me</a></li>
-                <li><a href="#">Projects</a></li>
+                <li><a href="#projects">Projects</a></li>
                 <li><a href="#">Contact me</a></li>
             </ul>
             <ul>

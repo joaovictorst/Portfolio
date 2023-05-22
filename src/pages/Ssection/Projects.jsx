@@ -6,7 +6,7 @@ import aldeaogame from './images/aldeaogame.gif'
 
 export default function Projects(){
     return (
-        <section className="projects">
+        <section className="projects" id="projects">
             <header>
                 <h1>Projetos</h1>
             </header>
