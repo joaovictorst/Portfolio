@@ -3,13 +3,23 @@ import Pbutton from "../../components/Pbutton/Pbutton";
 import Sbutton from "../../components/Sbutton/Sbutton";
 import './Fsection.css'
 import pdf from '../../documents/1.pdf'
-import logo from '../../assets/guy.png'
-import Content from '../../assets/Content.png'
 
 export default function Fcontent(){
+    const text = 'document.body.innerHTML = " hello world"'
+    let index = 0 
+    function writeText(){
+        document.getElementById('span').innerText = text.slice(0, index)
+        index++;
+        if(index> text.length){
+            clearInterval(interval)
+        }
+    }
+    let interval = setInterval(writeText, 100);
+    
     return(
         <section className="container">
             <div className="container-text">
+            <p className="span" id="span"> </p>
                 <h1>Sou Joao Victor,</h1>
                 <p>Desenvolvedor Web Front-end.</p>
                 <div>
